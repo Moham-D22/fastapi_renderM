@@ -3,6 +3,6 @@ services:
     name: fastapi-app
     env: python
     buildCommand: ""
-    startCommand: uvicorn APIFile:app --host 0.0.0.0 --port 10000
+    startCommand: uvicorn Main.APIFile:app --host 0.0.0.0 --port 10000
     plan: free
     envVars: []
